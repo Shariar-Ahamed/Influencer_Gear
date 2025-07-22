@@ -53,6 +53,7 @@
 }
 
 
+
 /* header main section  */
 .header-main{
     display: flex;
@@ -104,6 +105,42 @@
     height: 475px;
 }
 
+
+
+
+/* Brand section style  */
+
+.brand-section {
+  max-width: 1110px;
+  height: 110px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 36px;
+  position: relative;
+}
+
+/* Top Gradient Line */
+.brand-section::before,
+.brand-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+}
+
+/* ::before for top line */
+.brand-section::before {
+  top: 0;
+}
+
+/* ::after for bottom line */
+.brand-section::after {
+  bottom: 0;
+}
 
 
 
