@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.poppins-regular{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Share style  */
+
+
+/* Header section style */
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 1.5rem ;
+    font-weight: 700 ;
+}
+
+.header-section{
+    max-width:1200px;
+    margin: 0px auto;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list-items{
+   list-style: none;
+   padding-right: 34px;
+}
+
+.nav-list-items, a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color:#3A3A3A;
+}
+
+.nav-list-items a i{
+    color: #000000;
+}
+
+
+.header-main{
+
+}
+
+
+
+
+
+
+
+/* Small Devices */
+@media screen and (max-width: 576px) {
+    .nav-title{
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .nav-link{
+        display: none;
+    }
+
+}
+
+
+
+
+
+/* Medium Devices - Tablets (577px – 992px) */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .nav-title{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .nav-list-item{
+        padding: 17px;
+    }
+
+}
